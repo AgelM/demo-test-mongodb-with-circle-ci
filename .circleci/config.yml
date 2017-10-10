@@ -12,4 +12,5 @@ jobs:
       - checkout
       - run: go get -v -t -d ./...
       - run: go test -v ./...
-      - run: fail it strongly
+      - run: go run main.go fail it
+      
